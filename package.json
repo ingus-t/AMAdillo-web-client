@@ -1,0 +1,17 @@
+{
+  "name": "ama-search-service",
+  "version": "0.0.13",
+  "description": "AMA search service",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fuse.js": "^3.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ingus Terbets",
+  "license": "ISC"
+}
