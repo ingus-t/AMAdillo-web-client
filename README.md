@@ -45,6 +45,9 @@ https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 * /amadillo deadline | 0.25 - search for term deadline with error threshold 0.75
 * /amadillo [help/h/-h] - see tips and examples, no need to look here :)
 
+# Screenshot:
+(https://github.com/ingus-t/SPAI-AMA-nodejs/blob/master/img/ss.png "Screenshot")
+
 # Issues, planned changes (long list... :) )
 * 
 
