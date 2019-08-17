@@ -46,7 +46,11 @@ https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 * /amadillo [help/h/-h] - see tips and examples, no need to look here :)
 
 # Screenshot:
+<<<<<<< HEAD
 (https://github.com/ingus-t/SPAI-AMA-nodejs/blob/master/img/ss.png "Screenshot")
+=======
+![Screenshot](https://github.com/ingus-t/SPAI-AMA-nodejs/blob/master/img/ss.PNG "Screenshot")
+>>>>>>> a6839ed414097f6537781c48544610172d9bbe43
 
 # Issues, planned changes (long list... :) )
 * 
