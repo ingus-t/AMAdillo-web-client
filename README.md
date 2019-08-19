@@ -9,10 +9,11 @@ Author: Ingus Terbets
 ## Introduction
 **AMAdillo** is a Slack app that allows users to search the AMA transcript database by using fuzzy string matching.  
 **1427** questions have been asked during AMA sessions until August 15th. I think that many of the questions asked in AMA have already been answered before. And they are often repeated.  
-One possible reason for that that is FAQ information fragmentation across many pages. S&P AI page has an FAQ section, #60daysofudacity page has FAQ section, #showcase page has an FAQ section. AMA question/answer transcript and the Slack channel are hard to search through for many students.  
+One possible reason for that is FAQ information fragmentation across many pages. S&P AI page has an FAQ section, #60daysofudacity page has FAQ section, #showcase page has an FAQ section. AMA question/answer transcript and the Slack channel are not convenient to search through for many students, especially because of the 10 000 message limit.  
 
-It would be useful if questions from all these resources were united, and properly weighed, so answers from official FAQs come before AMA answers (they still have to match the keywords).  
-Making the search possible through Slack would really benefit the students.  
+It would be useful if questions from all these FAQs and also the AMA transcript would be combined. If they were properly weighed, answers from official FAQs come before AMA answers (they still have to match the keywords).  
+Making this simple search possible through Slack would really benefit the students.  
+The best or most interesting answers from Slack could also be added to the dataset.
 
 ## Parts of this project
 In total there are 4 parts in the Slack App project:
@@ -50,16 +51,19 @@ https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 ![Slack Slash command](https://raw.githubusercontent.com/ingus-t/SPAI-AMA-nodejs/master/img/Slack_slash_command.PNG "Slack Slash command")
 
 ## Example commands:
-* /amadillo deadline - search for term deadline
-* /amadillo deadline | 0.25 - search for term deadline with error threshold 0.75
-* /amadillo [help/h/-h] - see tips and examples, no need to look here :)
+* **/amadillo deadline** - search for the term *deadline*
+* **/amadillo deadline | 0.25** - search for term deadline with error threshold 0.25
+* **/amadillo help** - see tips and examples, no need to look up the GitHub page :)
 
 ## Screenshot:
 ![Screenshot](https://github.com/ingus-t/SPAI-AMA-nodejs/blob/master/img/ss.PNG "Screenshot")
 
 ## Issues, planned changes (long list... :) )
-* Get full user name list from Udacity admins - then all usernames could be completely removed from the dataset (they are only partially removed in an automated process. And doing it manually is error prone and time consuming).
-* For safe Slack integration I would 
+* If I got full user name list from Udacity admins - then all usernames could be completely removed from the dataset (they are only partially removed in an automated process. And doing it manually is error prone and time consuming).
+* For safe Slack integration I would need an admin from Udacity to talk to me. Privacy is important.
+
+Possible additional commands:  
+* **/60days 1** - allows adding or editing information about a specific #60daysofudacity challenge day. And the full log would automatically be saved and available to Udacity staff.
 
 ## Acknowledgements
 1. Taimur Zahid, for compiling the AMA transcript dataset.
