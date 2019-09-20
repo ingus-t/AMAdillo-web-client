@@ -61,6 +61,7 @@ https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 ## Issues, planned changes (long list... :) )
 * If I got full user name list from Udacity admins - then all usernames could be completely removed from the dataset (they are only partially removed in an automated process. And doing it manually is error prone and time consuming).
 * For safe Slack integration I would need an admin from Udacity to talk to me. Privacy is important.
+* add ways to import/convert different data sources to JSON.
 
 Possible additional commands:  
 * **/60days 1** - allows adding or editing information about a specific #60daysofudacity challenge day. And the full log would automatically be saved and available to Udacity staff.
